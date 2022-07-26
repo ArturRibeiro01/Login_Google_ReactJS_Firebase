@@ -19,6 +19,7 @@ export const Home = () => {
       </span>
 
       <h1>Bem vindo {userLogger.displayName}</h1>
+      <h2>Meu site de teste</h2>
       <p>{userLogger.email}</p>
       <button onClick={() => signOutGoogle()}> Sair</button>
     </div>
