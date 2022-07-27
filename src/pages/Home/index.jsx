@@ -21,6 +21,7 @@ export const Home = () => {
       <h1>Bem vindo {userLogger.displayName}</h1>
       <h2>Meu site de teste</h2>
       <p>{userLogger.email}</p>
+      <p>Outro teste pro russo </p>
       <button onClick={() => signOutGoogle()}> Sair</button>
     </div>
   );
