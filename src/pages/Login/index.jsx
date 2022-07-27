@@ -10,7 +10,12 @@ export const Login = () => {
   }
 
   if (!signed) {
-    return <button onClick={() => loginGoogle()}>Login com o Google</button>;
+    return (
+      <>
+        <button onClick={() => loginGoogle()}>Login com o Google</button>
+        <p>Teste pro russo</p>
+      </>
+    );
   } else {
     return <Navigate to="/home" />;
   }
